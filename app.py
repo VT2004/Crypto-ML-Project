@@ -1,9 +1,4 @@
-# app.py
 import streamlit as st
-<<<<<<< HEAD
-import streamlit as st
-=======
->>>>>>> f11ad4fbfb312f234a312d0e66ba13dc6a28acd6
 import numpy as np
 import joblib
 
@@ -30,8 +25,6 @@ if st.button("Predict Liquidity Ratio"):
     log_pred = model.predict(input_scaled)
     pred = np.expm1(log_pred[0])  # Reverse log1p
     
-<<<<<<< HEAD
-st.success(f"📉 Predicted Liquidity Ratio: **{pred:.4f}**")
-=======
     st.success(f"📉 Predicted Liquidity Ratio: **{pred:.4f}**")
->>>>>>> f11ad4fbfb312f234a312d0e66ba13dc6a28acd6
+
+
