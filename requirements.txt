@@ -1,0 +1,11 @@
+streamlit
+numpy
+pandas
+scikit-learn
+joblib
+
+git add requirements.txt
+git commit -m "Add requirements.txt for Streamlit app"
+git push origin main
+
+
